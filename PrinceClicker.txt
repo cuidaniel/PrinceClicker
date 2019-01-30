@@ -49,8 +49,8 @@ Shinies
 	*luckyCheese
 		on click:log Woop
 		movement:onRight moveLeft fade bounce:0.05
-		frequency:60
-		frequency variation:30
+		frequency:5
+		frequency variation:1
 		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/cheese.png
 		class:bigButton
 		on click:

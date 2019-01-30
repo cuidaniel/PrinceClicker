@@ -20,7 +20,7 @@ Buttons
 		name:steal a treat
 		desc:Click prince to steal more treats!
 		on click:anim icon wobble
-		on click:yield 100000000 treat  // for testing purposes. should be just 1
+		on click:yield 100000000 treat
 		on click:if (have goldenTouch and chance(1%)) yield 1 piePiece
 		icon:https://github.com/cuidaniel/TreatClicker/blob/master/Images/prince_medium.png
 		no text

@@ -23,7 +23,7 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 bunny
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-		icon::https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/prince.png
+		icon::https://i.imgur.com/UtnChSo.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
@@ -34,7 +34,7 @@ Resources
 	*bunny|bunnies
 		name:Bunny|Bunnies
 		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
-		icon:icons[0,0]
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/prince.png
 		class:noBackground
 		show earned
 		

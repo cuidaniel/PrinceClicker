@@ -23,7 +23,8 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 bunny
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-		icon:https://i.imgur.com/UtnChSo.png
+		//icon:https://i.imgur.com/UtnChSo.png
+		icon::https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/prince.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed

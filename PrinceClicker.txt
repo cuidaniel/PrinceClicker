@@ -7,7 +7,7 @@ Let's make a game!
 	version:1
 
 Settings
-	background:stuff/meadow.jpg
+	background:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/bg.jpg
 	building cost increase:115%
 	building cost refund:50%
 	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
@@ -62,7 +62,7 @@ Shinies
 				toast The lucky cheese grants you<//><b>[$amount] treats</b>.
 				yield $amount treats
 			else
-				$amount=1*$boost
+				$amount=1000*$boost
 				toast The lucky cheese grants you<//><b>[$amount] pie pieces[s?$amount]</b>!
 				yield $amount piePiece
 			end
@@ -74,76 +74,76 @@ Buildings
 		
 	*cuteness|cuteness
 		name:Cuteness|Cuteness
-		desc:Passive cuteness attribute.<//><b>Effect:</b><.>Peopel will give you 1 treat every 10 seconds.
+		desc:Passive cuteness attribute.<//><b>Effect:</b><.>People will give you 1 treat every 10 seconds.
 		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/cuteness.png
 		cost:15 treats
 		on tick:yield 0.1 treat
 		unlocked
 	
-	*hutch|hutches
-		name:Rabbit hutch|Rabbit hutches
-		desc:A bit roomier than a cuteness, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 rabbit every 2 seconds.
-		icon:icons[3,1]
+	*pity|pity
+		name:Pitiful|Pitiful
+		desc:Look so sad that people will give you treats.<//><b>Effect:</b><.>Looking pitiful nets you 1 treat every 2 seconds.
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/sad.jpg
 		cost:100 treats
 		on tick:yield 0.5 treats
 		req:100 treats:earned
 	
-	*coop|coops
-		name:Rabbit coop|Rabbit coops
-		desc:A much nicer rabbit home where full treat families can live.<//><b>Effect:</b><.>Produces 5 rabbits per second.
-		icon:icons[3,2]
+	*whiskers|whiskers
+		name:Twitchy whiskers|Twitchy whiskers
+		desc:Your whiskers can detect treats a mile away.<//><b>Effect:</b><.>Produces 5 treats per second.
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/whisker.jpg
 		cost:600 treats
 		on tick:yield 5 treats
 		req:600 treats:earned
 	
-	*pen|pens
-		name:Rabbit pen|Rabbit pens
-		desc:A lovely enclosure with plenty of green space.<//><b>Effect:</b><.>Produces 12 rabbits per second.
-		icon:icons[3,3]
+	*trip|trips
+		name:Car trip|Car trips
+		desc:Get extra treats so you behave on road trips.<//><b>Effect:</b><.>Produces 12 treats per second.
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/trip.jpg
 		cost:4000 treats
 		on tick:yield 12 treats
 		req:4000 treats:earned
 	
-	*meadow|meadows
-		name:Rabbit meadow|Rabbit meadows
-		desc:A wide open space full of shade and lush grass.<//><b>Effect:</b><.>Produces 90 rabbits per second.
-		icon:icons[3,4]
+	*eyes|eyes
+		name:Better eyes|Better eyes
+		desc:Improved eyesight to find forgotten food.<//><b>Effect:</b><.>Produces 90 treats per second.
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/eye.jpg
 		cost:20000 treats
 		on tick:yield 90 treats
 		req:20000 treats:earned
 	
-	*village|villages
-		name:Rabbit village|Rabbit villages
-		desc:Your treats are building their own villages now!<//><b>Effect:</b><.>Produces 300 rabbits per second.
-		icon:icons[3,5]
+	*blep|bleps
+		name:Blep|Bleps
+		desc:Blep intensely!<//><b>Effect:</b><.>Produces 300 treats per second.
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/blep.jpg
 		cost:200000 treats, 1 piePiece
 		on tick:yield 300 treats
-		req:200000 treats:earned and independenceDay
+		req:200000 treats:earned and indetripdenceDay
 		
-	*city|cities
-		name:Rabbit city|Rabbit cities
-		desc:A bustling little city, populated with busy rabbits.<//><b>Effect:</b><.>Produces 1000 rabbits per second.
-		icon:icons[3,6]
+	*dan|dans
+		name:Dan|Dans
+		desc:Bother your favorite person in the morning.<//><b>Effect:</b><.>Produces 1000 treats per second.
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/morning.jpg
 		cost:3000000 treats, 4 piePieces
 		on tick:yield 1000 treats
-		req:3000000 treats:earned and independenceDay
+		req:3000000 treats:earned and indetripdenceDay
 		
-	*citadel|citadels
-		name:Moon citadel|Moon citadels
-		desc:An ornate palace standing on the moon, ruled by treat kings and queens and staffed with royal treat guards.<//><b>Effect:</b><.>Produces 4000 rabbits per second.
-		icon:icons[3,7]
+	*tremble|trembles
+		name:Tremble|Trembles
+		desc:Hire a tiny friend.<//><b>Effect:</b><.>Produces 4000 treats per second.
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/tremble.jpg
 		cost:70000000 treats, 16 piePieces
 		on tick:yield 4000 treats
 		on tick:if (have moonGardens) yield 0.01 piePiece
-		req:70000000 treats:earned and independenceDay
+		req:70000000 treats:earned and indetripdenceDay
 		
-	*fortress
-		name:Freedom fortress
-		text:Freedom fortress ([this]%)
-		desc:A huge treat castle. A monument to the adventurous spirit of treatkind, which will take time and effort to complete.<//><b>The fortress is [this]% complete.</b>
-		icon:icons[3,8]
+	*caught
+		name:Caught!
+		text:Caught progress ([this]%)
+		desc:You've stolen too much. Mom is going to catch you!.<//><b>Prince is [this]% caught.</b>
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/caught.jpg
 		cost:300000000 treats, 100 piePieces
-		req:70000000 treats:earned and independenceDay
+		req:70000000 treats:earned and indetripdenceDay
 		limit:100
 		cost increase:105%
 		
@@ -245,77 +245,77 @@ Upgrades
 	
 	*buildingUpgrade1
 		name:Sippy bottles
-		desc:Your treats can drink their fill!<//><b>Effect:</b><.>rabbit cuteness production x2<.>rabbit hutch production x2<.>rabbit coop production x2
+		desc:Your treats can drink their fill!<//><b>Effect:</b><.>rabbit cuteness production x2<.>pity production x2<.>whiskers production x2
 		icon:icons[2,0] icons[3,0]
 		cost:1000 treats
 		passive:multiply yield of cuteness by 2
-		passive:multiply yield of hutch by 2
-		passive:multiply yield of coop by 2
-		req:(cuteness>=10 or hutches>=10 or coops>=10)
+		passive:multiply yield of pity by 2
+		passive:multiply yield of whiskers by 2
+		req:(cuteness>=10 or pity>=10 or whiskers>=10)
 		
 	*buildingUpgrade2
 		name:Prime grade hay
-		desc:Not just for horses anymore!<//><b>Effect:</b><.>rabbit cuteness production x2<.>rabbit hutch production x2<.>rabbit coop production x2
+		desc:Not just for horses anymore!<//><b>Effect:</b><.>rabbit cuteness production x2<.>pity production x2<.>whiskers production x2
 		icon:icons[2,0] icons[3,1]
 		cost:100000 treats
 		passive:multiply yield of cuteness by 2
-		passive:multiply yield of hutch by 2
-		passive:multiply yield of coop by 2
-		req:(cuteness>=50 or hutches>=50 or coops>=50)
+		passive:multiply yield of pity by 2
+		passive:multiply yield of whiskers by 2
+		req:(cuteness>=50 or pity>=50 or whiskers>=50)
 		
 	*buildingUpgrade3
 		name:Shredded newspapers
-		desc:You'd think they just poop on these, but they really enjoy reading the Sunday comics.<//><b>Effect:</b><.>rabbit cuteness production x2<.>rabbit hutch production x2<.>rabbit coop production x2
+		desc:You'd think they just poop on these, but they really enjoy reading the Sunday comics.<//><b>Effect:</b><.>rabbit cuteness production x2<.>pity production x2<.>whiskers production x2
 		icon:icons[2,0] icons[3,2]
 		cost:5000000 treats
 		passive:multiply yield of cuteness by 2
-		passive:multiply yield of hutch by 2
-		passive:multiply yield of coop by 2
-		req:(cuteness>=100 or hutches>=100 or coops>=100)
+		passive:multiply yield of pity by 2
+		passive:multiply yield of whiskers by 2
+		req:(cuteness>=100 or pity>=100 or whiskers>=100)
 		
 	*buildingUpgrade4
 		name:Pretty fences
-		desc:Just the right size so your treats can peek through but not hop over!<//><b>Effect:</b><.>rabbit pen production x2<.>rabbit meadow production x2
+		desc:Just the right size so your treats can peek through but not hop over!<//><b>Effect:</b><.>trip production x2<.>eyes production x2
 		icon:icons[2,0] icons[3,3]
 		cost:50000 treats
-		passive:multiply yield of pen by 2
-		passive:multiply yield of meadow by 2
-		req:(pens>=10 or meadows>=10)
+		passive:multiply yield of trip by 2
+		passive:multiply yield of eyes by 2
+		req:(trips>=10 or eyes>=10)
 		
 	*buildingUpgrade5
 		name:Treat playground
-		desc:If your treats are outside, they might as well get some exercise!<//><b>Effect:</b><.>rabbit pen production x2<.>rabbit meadow production x2
+		desc:If your treats are outside, they might as well get some exercise!<//><b>Effect:</b><.>trip production x2<.>eyes production x2
 		icon:icons[2,0] icons[3,4]
 		cost:5000000 treats
-		passive:multiply yield of pen by 2
-		passive:multiply yield of meadow by 2
-		req:(pens>=50 or meadows>=50)
+		passive:multiply yield of trip by 2
+		passive:multiply yield of eyes by 2
+		req:(trips>=50 or eyes>=50)
 		
 	*buildingUpgrade6
 		name:Treat TVs
-		desc:Televisions that broadcast treat cartoons, treat sitcoms, and treat news bulletins.<//><b>Effect:</b><.>rabbit village production x2<.>rabbit city production x2
+		desc:Televisions that broadcast treat cartoons, treat sitcoms, and treat news bulletins.<//><b>Effect:</b><.>blep production x2<.>dan production x2
 		icon:icons[2,0] icons[3,5]
 		cost:1000000 treats
-		passive:multiply yield of village by 2
-		passive:multiply yield of city by 2
-		req:(villages>=10 or cities>=10)
+		passive:multiply yield of blep by 2
+		passive:multiply yield of dan by 2
+		req:(bleps>=10 or dans>=10)
 		
 	*buildingUpgrade7
 		name:Wee little treat cars
-		desc:Your treats drive around in these. How nice!<//><b>Effect:</b><.>rabbit village production x2<.>rabbit city production x2
+		desc:Your treats drive around in these. How nice!<//><b>Effect:</b><.>blep production x2<.>dan production x2
 		icon:icons[2,0] icons[3,6]
 		cost:500000000 treats
-		passive:multiply yield of village by 2
-		passive:multiply yield of city by 2
-		req:(villages>=50 or cities>=50)
+		passive:multiply yield of blep by 2
+		passive:multiply yield of dan by 2
+		req:(bleps>=50 or dans>=50)
 		
 	*buildingUpgrade8
 		name:Soothing moon crystals
-		desc:Just really nice to be around.<//><b>Effect:</b><.>moon citadel production x2
+		desc:Just really nice to be around.<//><b>Effect:</b><.>moon tremble production x2
 		icon:icons[2,0] icons[3,7]
 		cost:1000000000 treats
-		passive:multiply yield of citadel by 2
-		req:10 citadels
+		passive:multiply yield of tremble by 2
+		req:10 trembles
 		
 	//golden carrot upgrades
 	
@@ -334,9 +334,9 @@ Upgrades
 		cost:5 piePieces
 		req:1 piePiece:earned
 	
-	*independenceDay
-		name:Independence day
-		desc:Your treats are making their first step towards declaring their independence from the oppressive shackles of pens and cuteness.<//><b>Effect:</b><.>unlocks new buildings
+	*indetripdenceDay
+		name:Indetripdence day
+		desc:Your treats are making their first step towards declaring their indetripdence from the oppressive shackles of trips and cuteness.<//><b>Effect:</b><.>unlocks new buildings
 		icon:icons[2,7]
 		cost:10 piePieces
 		req:5 piePieces:earned
@@ -350,7 +350,7 @@ Upgrades
 		
 	*moonGardens
 		name:Moon gardens
-		desc:The royal botanists in your moon citadels have found new ways of cultivating plants in reduced gravity!<//><b>Effect:</b><.>moon citadels now produce 1 golden carrot every 100 seconds
+		desc:The royal botanists in your moon trembles have found new ways of cultivating plants in reduced gravity!<//><b>Effect:</b><.>moon trembles now produce 1 golden carrot every 100 seconds
 		icon:icons[2,9]
 		cost:100 piePieces
 		req:50 piePieces:earned
@@ -423,9 +423,9 @@ Achievements
 		req:1000 piePiece
 		icon:icons[0,1] icons[0,4]
 	
-	*fortressAchiev
-		name:Freedom!
-		desc:Complete building the <b>freedom fortress</b>.<//>This is it. You beat the game!
-		req:100 fortress
-		icon:icons[3,8] icons[0,4]
+	*caughtAchiev
+		name:You've finally been caught!
+		desc:Completely get <b>caught</b>.<//>This is it. You beat the game! Time to go void your bowels at 3AM!
+		req:100 caught
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/poop.png
 		

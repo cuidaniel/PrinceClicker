@@ -62,7 +62,7 @@ Shinies
 				toast The lucky cheese grants you<//><b>[$amount] treats</b>.
 				yield $amount treats
 			else
-				$amount=1000*$boost
+				$amount=100000*$boost
 				toast The lucky cheese grants you<//><b>[$amount] pie pieces[s?$amount]</b>!
 				yield $amount piePiece
 			end
@@ -363,7 +363,7 @@ Achievements
 		name:Run rabbit run
 		desc:Have <b>1</b> treat.
 		req:1 treat
-		icon:icons[2,4] icons[0,2] icons[0,6]
+		icon:icons[2,4] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/tremble.jpg icons[0,6]
 	*treatAchiev2
 		name:Treatst home videos
 		desc:Have <b>1000</b> treats.

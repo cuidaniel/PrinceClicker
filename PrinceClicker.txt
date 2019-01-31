@@ -1,7 +1,7 @@
-Let's make a game!
+Prince Clicker
 	name:Prince Clicker
 	by:Dan
-	desc:Basic dog clicker.<//>Get treats and escape the apartment!
+	desc:Basic dog clicker.<//>Get all the treats!
 	created:01/30/2019
 	updated:01/30/2019
 	version:1
@@ -21,8 +21,8 @@ Buttons
 		name:steal a treat
 		desc:Click prince to steal more treats!
 		on click:anim icon wobble
-		on click:yield 100000000 treat
-		on click:if (have goldenTouch and chance(1%)) yield 1 piePiece
+		on click:yield 1 treat
+		on click:if (have football and chance(1%)) yield 1 piePiece
 		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/prince_medium.png
 		no text
 		class:bigButton hasFlares
@@ -49,20 +49,20 @@ Shinies
 	*luckyCheese
 		on click:log Woop
 		movement:onRight moveLeft fade bounce:0.05
-		frequency:5
-		frequency variation:1
+		frequency:60
+		frequency variation:30
 		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/cheese.png
 		class:bigButton
 		on click:
 			$boost=1
-			if (have clover) $boost=4
+			if (have sneakyTreats) $boost=4
 			if (chance(25%))
 				//get at least 7, or between 1 and 3 minutes of our treat production
 				$amount=max(7,random(treats:ps*60*1,treats:ps*60*3))*$boost
 				toast The lucky cheese grants you<//><b>[$amount] treats</b>.
 				yield $amount treats
 			else
-				$amount=100000*$boost
+				$amount=1*$boost
 				toast The lucky cheese grants you<//><b>[$amount] pie pieces[s?$amount]</b>!
 				yield $amount piePiece
 			end
@@ -118,7 +118,7 @@ Buildings
 		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/blep.jpg
 		cost:200000 treats, 1 piePiece
 		on tick:yield 300 treats
-		req:200000 treats:earned and indetripdenceDay
+		req:200000 treats:earned and overexcitement
 		
 	*dan|dans
 		name:Dan|Dans
@@ -126,7 +126,7 @@ Buildings
 		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/morning.jpg
 		cost:3000000 treats, 4 piePieces
 		on tick:yield 1000 treats
-		req:3000000 treats:earned and indetripdenceDay
+		req:3000000 treats:earned and overexcitement
 		
 	*tremble|trembles
 		name:Tremble|Trembles
@@ -134,8 +134,8 @@ Buildings
 		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/tremble.jpg
 		cost:70000000 treats, 16 piePieces
 		on tick:yield 4000 treats
-		on tick:if (have moonGardens) yield 0.01 piePiece
-		req:70000000 treats:earned and indetripdenceDay
+		on tick:if (have openDoors) yield 0.01 piePiece
+		req:70000000 treats:earned and overexcitement
 		
 	*caught
 		name:Caught!
@@ -143,7 +143,7 @@ Buildings
 		desc:You've stolen too much. Mom is going to catch you!.<//><b>Prince is [this]% caught.</b>
 		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/caught.jpg
 		cost:300000000 treats, 100 piePieces
-		req:70000000 treats:earned and indetripdenceDay
+		req:70000000 treats:earned and overexcitement
 		limit:100
 		cost increase:105%
 		

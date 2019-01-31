@@ -154,88 +154,88 @@ Upgrades
 	//food upgrades
 	//inspiration : http://rabbit.org/suggested-vegetables-and-fruits-for-a-rabbit-diet/
 	
-	*parsley
-		name:Parsley
-		desc:A nice little supplement to your treats' diet.<//><b>Effect:</b><.>+1 treat/click
-		icon:icons[1,1]
+	*speed
+		name:Speed
+		desc:You get faster.<//><b>Effect:</b><.>+1 treat/click
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/speed.jpg
 		cost:100 treats
 		passive:increase treat yield of princeButton by 1
 		req:10 treats:earned
 		
-	*spinach
-		name:Spinach
-		desc:Big tasty leaves, perfect for hungry treats.<//><b>Effect:</b><.>+1 treat/click
-		icon:icons[1,2]
+	*sneaking
+		name:Sneaking
+		desc:You get sneakier.<//><b>Effect:</b><.>+1 treat/click
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/sneak.jpg
 		cost:200 treats
 		passive:increase treat yield of princeButton by 1
 		req:50 treats:earned
 		
-	*lettuce
-		name:Lettuce
-		desc:Frilly greens loved by all treats.<//><b>Effect:</b><.>+1 treat/click
-		icon:icons[1,3]
+	*glucosamine
+		name:Glucosamine
+		desc:Your bones get stronger.<//><b>Effect:</b><.>+1 treat/click
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/glucosamine.jpg
 		cost:400 treats
 		passive:increase treat yield of princeButton by 1
 		req:200 treats:earned
 		
-	*broccoli
-		name:Broccoli
-		desc:Crunchy greens that look like little trees.<//><b>Effect:</b><.>treats/click x2<.>treat production +5%
-		icon:icons[1,4]
+	*chocolate
+		name:Chocolate
+		desc:You feel weird, but more motivated.<//><b>Effect:</b><.>treats/click x2<.>treat production +5%
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/chocolate.jpg
 		cost:3000 treats
 		passive:multiply treat yield of princeButton by 2
 		passive:multiply yield of treats by 1.05
 		req:1000 treats:earned
 		
-	*apple
-		name:Apple
-		desc:Nice pieces of juicy red apples.<//><b>Effect:</b><.>treats/click x1.5<.>treat production +5%
-		icon:icons[1,5]
+	*rururu
+		name:Rururu
+		desc:Rururururururururururu.<//><b>Effect:</b><.>treats/click x1.5<.>treat production +5%
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/rururu.jpg
 		cost:10000 treats
 		passive:multiply treat yield of princeButton by 1.5
 		passive:multiply yield of treats by 1.05
 		req:1000 treats:earned
 		
-	*radish
-		name:Radish
-		desc:Purple, crunchy, and strangely spicy.<//><b>Effect:</b><.>treats/click x1.5<.>treat production +5%
-		icon:icons[1,6]
+	*sleep
+		name:Sleep
+		desc:Sleep more, eat more.<//><b>Effect:</b><.>treats/click x1.5<.>treat production +5%
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/sleep.jpg
 		cost:50000 treats
 		passive:multiply treat yield of princeButton by 1.5
 		passive:multiply yield of treats by 1.05
 		req:10000 treats:earned
 		
-	*mint
-		name:Mint
-		desc:Tasty, and gives your treats a lovely breath.<//><b>Effect:</b><.>treats/click x1.5<.>treat production +5%
-		icon:icons[1,7]
+	*fart
+		name:Fart
+		desc:Distractive maneuvers.<//><b>Effect:</b><.>treats/click x1.5<.>treat production +5%
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/fart.jpg
 		cost:100000 treats
 		passive:multiply treat yield of princeButton by 1.5
 		passive:multiply yield of treats by 1.05
 		req:50000 treats:earned
 		
-	*chard
-		name:Chard
-		desc:Broad leaves that make for a tasty salad.<//><b>Effect:</b><.>treats/click x1.5<.>treat production +5%
-		icon:icons[1,8]
+	*whine
+		name:Whine
+		desc:May your patience shatter.<//><b>Effect:</b><.>treats/click x1.5<.>treat production +5%
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/whine.jpg
 		cost:500000 treats
 		passive:multiply treat yield of princeButton by 1.5
 		passive:multiply yield of treats by 1.05
 		req:100000 treats:earned
 		
-	*cherry
-		name:Cherry
-		desc:Your treats look like little vampires when they start munching on these!<//><b>Effect:</b><.>treats/click x1.5<.>treat production +5%
-		icon:icons[1,9]
+	*peanutButter
+		name:Peanut butter
+		desc:You eat it right out of the jar<//><b>Effect:</b><.>treats/click x1.5<.>treat production +5%
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/pb.jpg
 		cost:1000000 treats
 		passive:multiply treat yield of princeButton by 1.5
 		passive:multiply yield of treats by 1.05
 		req:500000 treats:earned
 		
-	*carrot
-		name:Carrot
-		desc:The quintessential rabbit food! Crunchy, orange, and perfect.<//><b>Effect:</b><.>treats/click x2<.>treat production +10%
-		icon:icons[1,0]
+	*catFood
+		name:Cat food
+		desc:Not enough food? Take it from the smaller dog.<//><b>Effect:</b><.>treats/click x2<.>treat production +10%
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/catfood.jpg
 		cost:100000000 treats
 		passive:multiply treat yield of princeButton by 2
 		passive:multiply yield of treats by 1.1
@@ -244,9 +244,9 @@ Upgrades
 	//building upgrades
 	
 	*buildingUpgrade1
-		name:Sippy bottles
-		desc:Your treats can drink their fill!<//><b>Effect:</b><.>rabbit cuteness production x2<.>pity production x2<.>whiskers production x2
-		icon:icons[2,0] icons[3,0]
+		name:Charisma
+		desc:You're just too cute<//><b>Effect:</b><.>rabbit cuteness production x2<.>pity production x2<.>whiskers production x2
+		icon:icons[2,0] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/charisma.jpg
 		cost:1000 treats
 		passive:multiply yield of cuteness by 2
 		passive:multiply yield of pity by 2
@@ -254,9 +254,9 @@ Upgrades
 		req:(cuteness>=10 or pity>=10 or whiskers>=10)
 		
 	*buildingUpgrade2
-		name:Prime grade hay
-		desc:Not just for horses anymore!<//><b>Effect:</b><.>rabbit cuteness production x2<.>pity production x2<.>whiskers production x2
-		icon:icons[2,0] icons[3,1]
+		name:Dapper doggo
+		desc:Can wear anything on your head<//><b>Effect:</b><.>rabbit cuteness production x2<.>pity production x2<.>whiskers production x2
+		icon:icons[2,0] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/dapper.jpg
 		cost:100000 treats
 		passive:multiply yield of cuteness by 2
 		passive:multiply yield of pity by 2
@@ -264,9 +264,9 @@ Upgrades
 		req:(cuteness>=50 or pity>=50 or whiskers>=50)
 		
 	*buildingUpgrade3
-		name:Shredded newspapers
-		desc:You'd think they just poop on these, but they really enjoy reading the Sunday comics.<//><b>Effect:</b><.>rabbit cuteness production x2<.>pity production x2<.>whiskers production x2
-		icon:icons[2,0] icons[3,2]
+		name:Open mouth
+		desc:You realize the power that simply opening your mouth has on your appearance.<//><b>Effect:</b><.>rabbit cuteness production x2<.>pity production x2<.>whiskers production x2
+		icon:icons[2,0] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/openMouth.jpg
 		cost:5000000 treats
 		passive:multiply yield of cuteness by 2
 		passive:multiply yield of pity by 2
@@ -274,84 +274,84 @@ Upgrades
 		req:(cuteness>=100 or pity>=100 or whiskers>=100)
 		
 	*buildingUpgrade4
-		name:Pretty fences
-		desc:Just the right size so your treats can peek through but not hop over!<//><b>Effect:</b><.>trip production x2<.>eyes production x2
-		icon:icons[2,0] icons[3,3]
+		name:Pee on backpack
+		desc:Yes I have to sleep in the kennel for a bit, but then I get pity treats!<//><b>Effect:</b><.>trip production x2<.>eyes production x2
+		icon:icons[2,0] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/backpack.jpg
 		cost:50000 treats
 		passive:multiply yield of trip by 2
 		passive:multiply yield of eyes by 2
 		req:(trips>=10 or eyes>=10)
 		
 	*buildingUpgrade5
-		name:Treat playground
-		desc:If your treats are outside, they might as well get some exercise!<//><b>Effect:</b><.>trip production x2<.>eyes production x2
-		icon:icons[2,0] icons[3,4]
+		name:Early morning walks
+		desc:I get treats on the way back!<//><b>Effect:</b><.>trip production x2<.>eyes production x2
+		icon:icons[2,0] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/dogTreat.jpg
 		cost:5000000 treats
 		passive:multiply yield of trip by 2
 		passive:multiply yield of eyes by 2
 		req:(trips>=50 or eyes>=50)
 		
 	*buildingUpgrade6
-		name:Treat TVs
-		desc:Televisions that broadcast treat cartoons, treat sitcoms, and treat news bulletins.<//><b>Effect:</b><.>blep production x2<.>dan production x2
-		icon:icons[2,0] icons[3,5]
+		name:Lick the couch
+		desc:Tasty.<//><b>Effect:</b><.>blep production x2<.>dan production x2
+		icon:icons[2,0] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/couch.jpg
 		cost:1000000 treats
 		passive:multiply yield of blep by 2
 		passive:multiply yield of dan by 2
 		req:(bleps>=10 or dans>=10)
 		
 	*buildingUpgrade7
-		name:Wee little treat cars
-		desc:Your treats drive around in these. How nice!<//><b>Effect:</b><.>blep production x2<.>dan production x2
-		icon:icons[2,0] icons[3,6]
+		name:Always be in everyone's way
+		desc:It's not like they care. Right?<//><b>Effect:</b><.>blep production x2<.>dan production x2
+		icon:icons[2,0] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/inway.jpg
 		cost:500000000 treats
 		passive:multiply yield of blep by 2
 		passive:multiply yield of dan by 2
 		req:(bleps>=50 or dans>=50)
 		
 	*buildingUpgrade8
-		name:Soothing moon crystals
-		desc:Just really nice to be around.<//><b>Effect:</b><.>moon tremble production x2
-		icon:icons[2,0] icons[3,7]
+		name:Paw of more
+		desc:Works. Always.<//><b>Effect:</b><.>tremble production x2
+		icon:icons[2,0] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/paw.jpg
 		cost:1000000000 treats
 		passive:multiply yield of tremble by 2
 		req:10 trembles
 		
-	//golden carrot upgrades
+	//piePiece upgrades
 	
-	*goldenTouch
-		name:Golden touch
-		desc:The delicate art of finding vegetables made of precious metals.<//><b>Effect:</b><.>1% chance of gaining 1 golden carrot per treat click
-		icon:icons[2,5]
+	*football
+		name:Football season
+		desc:Mom bakes for these events.<//><b>Effect:</b><.>1% chance of gaining 1 piePiece per treat click
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/football.jpg
 		cost:1 piePiece
 		req:1 piePiece:earned
 		
-	*rabbitHaste
-		name:Rabbit's haste
-		desc:I'm late! I'm late! For a very important date!<//><b>Effect:</b><.>lucky treats appear 30% more often
-		icon:icons[2,6]
+	*kickoff
+		name:Kick off booties
+		desc:What is this shit.<//><b>Effect:</b><.>lucky cheese appear 30% more often
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/booties.jpg
 		passive:multiply frequency of luckyCheese by 0.7
 		cost:5 piePieces
 		req:1 piePiece:earned
 	
-	*indetripdenceDay
-		name:Indetripdence day
-		desc:Your treats are making their first step towards declaring their indetripdence from the oppressive shackles of trips and cuteness.<//><b>Effect:</b><.>unlocks new buildings
-		icon:icons[2,7]
+	*overexcitement
+		name:Overexcitement
+		desc:AAAAAaaaaaaaaaaaaaahhh doorbell.<//><b>Effect:</b><.>unlocks new abilities
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/chitter.jpg
 		cost:10 piePieces
 		req:5 piePieces:earned
 		
-	*clover
-		name:Clover
-		desc:A delicious herb that tastes lucky.<//><b>Effect:</b><.>lucky treat effects are 4 times more powerful
-		icon:icons[2,8]
+	*sneakyTreats
+		name:Sneaky treats
+		desc:When Caryn's not looking, the others are nice.<//><b>Effect:</b><.>lucky cheese effects are 4 times more powerful
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/brian.jpg
 		cost:100 piePieces
 		req:50 piePieces:earned
 		
-	*moonGardens
-		name:Moon gardens
-		desc:The royal botanists in your moon trembles have found new ways of cultivating plants in reduced gravity!<//><b>Effect:</b><.>moon trembles now produce 1 golden carrot every 100 seconds
-		icon:icons[2,9]
+	*openDoors
+		name:Learn how to open doors
+		desc:Nothing can stop me now<//><b>Effect:</b><.>trembles now produce 1 piePiece every 100 seconds
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/doors.jpg
 		cost:100 piePieces
 		req:50 piePieces:earned
 		
@@ -360,72 +360,72 @@ Achievements
 		on click:anim glow
 		
 	*treatAchiev1
-		name:Run rabbit run
+		name:Waited patiently
 		desc:Have <b>1</b> treat.
 		req:1 treat
-		icon:icons[2,4] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/tremble.jpg icons[0,6]
+		icon:icons[2,4] icons[0,2] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/treat.png
 	*treatAchiev2
-		name:Treatst home videos
+		name:Stole impatiently
 		desc:Have <b>1000</b> treats.
 		req:1000 treats
-		icon:icons[2,4] icons[0,3] icons[0,6]
+		icon:icons[2,4] icons[0,3] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/treat.png
 	*treatAchiev3
-		name:You got buns, hun
+		name:I can get away with it right?
 		desc:Have <b>1000000</b> treats.
 		req:10000000 treats
-		icon:icons[2,4] icons[0,4] icons[0,6]
+		icon:icons[2,4] icons[0,4] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/treat.png
 		
 	*clickAchiev1
-		name:That tickles
+		name:Pokey da caryn
 		desc:Click the treat <b>10</b> times.
 		req:10 princeButton clicks
-		icon:icons[2,2] icons[0,2] icons[0,6]
+		icon:icons[2,2] icons[0,2] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/treat.png
 	*clickAchiev2
-		name:Don't squeeze me I'll fart
+		name:Runs into door
 		desc:Click the treat <b>100</b> times.
 		req:100 princeButton clicks
-		icon:icons[2,2] icons[0,3] icons[0,6]
+		icon:icons[2,2] icons[0,3] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/treat.png
 	*clickAchiev3
-		name:You're cruising for a bruising, dude
+		name:Gets on driver seat
 		desc:Click the treat <b>2000</b> times.
 		req:2000 princeButton clicks
-		icon:icons[2,2] icons[0,4] icons[0,6]
+		icon:icons[2,2] icons[0,4] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/treat.png
 		
 	*treatPsAchiev1
-		name:Be vewy vewy quiet
+		name:Silent pup
 		desc:Produce <b>10</b> treats per second.
 		req:10 treats per second
-		icon:icons[2,3] icons[0,2] icons[0,6]
+		icon:icons[2,3] icons[0,2] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/treat.png
 	*treatPsAchiev2
-		name:Hop and a skip
+		name:Sneaky pup
 		desc:Produce <b>1000</b> treats per second.
 		req:1000 treats per second
-		icon:icons[2,3] icons[0,3] icons[0,6]
+		icon:icons[2,3] icons[0,3] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/treat.png
 	*treatPsAchiev3
-		name:Go forth and multiply
+		name:Ninja pup
 		desc:Produce <b>100000</b> treats per second.
 		req:100000 treats per second
-		icon:icons[2,3] icons[0,4] icons[0,6]
-		
-	*carrotAchiev1
-		name:Isn't it neat
-		desc:Have <b>1</b> golden carrot.
+		icon:icons[2,3] icons[0,4] https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/treat.png
+
+	*piePieceAchiev1
+		name:Got on the table
+		desc:Have <b>1</b> piePiece.
 		req:1 piePiece
-		icon:icons[0,1] icons[0,2]
-	*carrotAchiev2
-		name:All that glitters
-		desc:Have <b>100</b> golden carrots.
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/pie.png icons[0,2]
+	*piePieceAchiev2
+		name:Scrounged the recycling bags
+		desc:Have <b>100</b> piePieces.
 		req:100 piePiece
-		icon:icons[0,1] icons[0,3]
-	*carrotAchiev3
-		name:Zero nutritional value
-		desc:Have <b>1000</b> golden carrots.
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/pie.png icons[0,3]
+	*piePieceAchiev3
+		name:The kitchen countertop is no longer safe
+		desc:Have <b>1000</b> piePieces.
 		req:1000 piePiece
-		icon:icons[0,1] icons[0,4]
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/pie.png icons[0,4]
 	
 	*caughtAchiev
 		name:You've finally been caught!
 		desc:Completely get <b>caught</b>.<//>This is it. You beat the game! Time to go void your bowels at 3AM!
 		req:100 caught
-		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/poop.png
+		icon:https://raw.githubusercontent.com/cuidaniel/PrinceClicker/master/Images/poop.png icons[0,4]
 		

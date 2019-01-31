@@ -1,4 +1,4 @@
-Prince Clicker
+Let's make a game!
 	name:Prince Clicker
 	by:Dan
 	desc:Basic dog clicker.<//>Get all the treats!
